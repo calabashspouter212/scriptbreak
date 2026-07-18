@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "ScriptBreak",
+  "version": "0.1.0",
+  "identifier": "com.wasserman.scriptbreak",
+  "build": {
+    "frontendDist": "../src",
+    "beforeBuildCommand": ""
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "ScriptBreak",
+        "width": 1440,
+        "height": 900,
+        "minWidth": 900,
+        "minHeight": 600
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "category": "Productivity",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.png",
+      "icons/icon.ico",
+      "icons/icon.icns"
+    ],
+    "fileAssociations": [
+      {
+        "ext": ["scriptbreak"],
+        "name": "ScriptBreak Project",
+        "description": "ScriptBreak breakdown project",
+        "role": "Editor",
+        "mimeType": "application/json"
+      }
+    ]
+  }
+}

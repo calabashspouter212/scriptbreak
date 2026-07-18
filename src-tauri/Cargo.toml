@@ -1,0 +1,21 @@
+[package]
+name = "scriptbreak"
+version = "0.1.0"
+description = "ScriptBreak — screenplay breakdown, shot lists, and self-executing AI prompt-pack exports"
+authors = ["Sam Wasserman <sam@wassermanproductions.com>"]
+license = "Apache-2.0"
+edition = "2021"
+rust-version = "1.77"
+
+[build-dependencies]
+tauri-build = "2"
+
+[dependencies]
+tauri = { version = "2", features = [] }
+
+[profile.release]
+panic = "abort"
+codegen-units = 1
+lto = true
+opt-level = "s"
+strip = true

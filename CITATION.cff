@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use ScriptBreak in your work or research, please cite it as below."
+title: "ScriptBreak"
+type: software
+authors:
+  - family-names: "Wasserman"
+    given-names: "Sam"
+    website: "https://wassermanproductions.com"
+version: "1.0.0"
+date-released: "2026-07-18"
+url: "https://wassermanproductions.com"
+repository-code: "https://github.com/wassermanproductions/scriptbreak"
+license: Apache-2.0
+keywords:
+  - screenwriting
+  - filmmaking
+  - screenplay-breakdown
+  - shot-list
+  - previsualization
+  - ai-video
+  - prompt-engineering
+  - final-draft
+  - fountain
+abstract: >-
+  ScriptBreak is a local-first screenplay breakdown studio in the Wasserman
+  Filmmaker Suite. It parses Final Draft, Fountain, and PDF screenplays into
+  scene breakdowns with exact page counts, auto-tagged elements, character
+  and location bibles, shot lists, and a visual timeline, then exports
+  self-executing AI prompt packs usable with any LLM and any video or image
+  generator — with no API keys, accounts, or server.
