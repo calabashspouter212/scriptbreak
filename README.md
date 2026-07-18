@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/logo.svg" alt="ScriptBreak" width="340"></p>
+<p align="center"><img src="assets/logo.png" alt="ScriptBreak" width="560"></p>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="License: Apache 2.0"></a>
